@@ -1,0 +1,39 @@
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis--x path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: #ed283b;
+    stroke-width: 1.5px;
+}
+
+.line-quantile {
+    fill: none;
+    stroke: gold;
+    stroke-width: 1.5px;
+}
+
+.dot {
+    fill: #ed283b;
+    stroke: #ed283b;
+    stroke-width: 1px;
+}
+
+.line-dot {
+    fill: #ed283b;
+    stroke: #ed283b;
+    stroke-width: 1px;
+}
+
+.line-quantile-dot {
+    fill: gold;
+    stroke: gold;
+    stroke-width: 1px;
+}
